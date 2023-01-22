@@ -1,0 +1,6 @@
+name: NovaCoreNativeParticles
+main: net.novauniverse.novacorenativeparticles.NovaCoreNativeParticles
+description: This plugin makes NovaCore use native bukkit functions to spawn particles
+version: 1.0.0
+depend: [NovaCore]
+api-version: 1.19
