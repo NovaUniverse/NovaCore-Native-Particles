@@ -7,7 +7,8 @@ import net.zeeraa.novacore.commons.log.Log;
 import net.zeeraa.novacore.spigot.NovaCore;
 
 public class NovaCoreNativeParticles extends JavaPlugin {
-	public NovaCoreNativeParticles() {
+	@Override
+	public void onEnable() {
 		NovaCore.getInstance().setNovaParticleProvider(new NativeNovaParticleProvider());
 		Log.info("NovaCoreNativeParticles", "NovaCore will now use native spigot function to display particles");
 	}
